@@ -1,6 +1,20 @@
 <template>
   <header>
-      HEADER
+      <img src="../assets/img/dc-logo.png" alt="DC logo">
+      <div id="menu-container">
+        <ul>
+          <li><a href="#nowhere">characters</a></li>
+          <li><a href="#nowhere">comics</a></li>
+          <li><a href="#nowhere">movies</a></li>
+          <li><a href="#nowhere">tv</a></li>
+          <li><a href="#nowhere">games</a></li>
+          <li><a href="#nowhere">collectibles</a></li>
+          <li><a href="#nowhere">videos</a></li>
+          <li><a href="#nowhere">fans</a></li>
+          <li><a href="#nowhere">news</a></li>
+          <li><a href="#nowhere">shop</a></li>
+        </ul>
+      </div>
   </header>
 </template>
 
@@ -14,5 +28,40 @@ export default {
 
 
 <style lang="scss" scoped>
+
+    header{
+      background-color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 0rem;
+
+      ul{
+        display: flex;
+        list-style-type: none;
+
+        li{
+          padding: 0rem 0.8rem;
+          font-weight: 600;
+          font-size: 16px;
+          text-transform: uppercase;
+
+            a{
+              color: gray;
+              text-decoration: none;
+
+               &:hover{
+                color: blue;
+              }
+            }
+
+          
+        }
+      }
+
+
+
+    }
+
 
 </style>
