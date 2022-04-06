@@ -2,6 +2,7 @@
   <main>
     --- CONTENT GOES HERE ---
   </main>
+
 </template>
 
 <script>

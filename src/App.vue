@@ -38,5 +38,8 @@ export default {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.container-90w{
+  margin: auto 100px;
+}
 
 </style>
