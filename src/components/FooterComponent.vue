@@ -4,47 +4,47 @@
         <div class="list-container">
           <ul>
             <li>dc comics</li>
-            <li>Characters</li>
-            <li>Comics</li>
-            <li>Movies</li>
-            <li>TV</li>
-            <li>Games</li>
-            <li>Videos</li>
-            <li>News</li>
+            <li><a href="#nowhere">Characters</a></li>
+            <li><a href="#nowhere">Comics</a></li>
+            <li><a href="#nowhere">Movies</a></li>
+            <li><a href="#nowhere">TV</a></li>
+            <li><a href="#nowhere">Games</a></li>
+            <li><a href="#nowhere">Videos</a></li>
+            <li><a href="#nowhere">News</a></li>
           </ul>
 
           <ul>
             <li>shop</li>
-            <li>Shop DC</li>
-            <li>Shop DC Collectibles</li>
+            <li><a href="#nowhere">Shop DC</a></li>
+            <li><a href="#nowhere">Shop DC Collectibles</a></li>
           </ul>
         </div>
 
         <div class="list-container">
           <ul>
             <li>dc</li>
-            <li>Terms Of Use</li>
-            <li>Privacy policy (News)</li>
-            <li>Ad Choices</li>
-            <li>Advertising</li>
-            <li>Jobs</li>
-            <li>Subscriptions</li>
-            <li>Talent Workshops</li>
-            <li>CPSC Certificates</li>
-            <li>Ratings</li>
-            <li>Shop Help</li>
-            <li>Contact Us</li>
+            <li><a href="#nowhere">Terms Of Use</a></li>
+            <li><a href="#nowhere">Privacy policy (News)</a></li>
+            <li><a href="#nowhere">Ad Choices</a></li>
+            <li><a href="#nowhere">Advertising</a></li>
+            <li><a href="#nowhere">Jobs</a></li>
+            <li><a href="#nowhere">Subscriptions</a></li>
+            <li><a href="#nowhere">Talent Workshops</a></li>
+            <li><a href="#nowhere">CPSC Certificates</a></li>
+            <li><a href="#nowhere">Ratings</a></li>
+            <li><a href="#nowhere">Shop Help</a></li>
+            <li><a href="#nowhere">Contact Us</a></li>
           </ul>
         </div>
 
         <div class="list-container">
           <ul>
             <li>sites</li>
-            <li>DC</li>
-            <li>MAD Magazine</li>
-            <li>DC Kids</li>
-            <li>DC Universe</li>
-            <li>DC Power Visa</li>
+            <li><a href="#nowhere">DC</a></li>
+            <li><a href="#nowhere">MAD Magazine</a></li>
+            <li><a href="#nowhere">DC Kids</a></li>
+            <li><a href="#nowhere">DC Universe</a></li>
+            <li><a href="#nowhere">DC Power Visa</a></li>
           </ul>
         </div> 
       </div>
@@ -61,10 +61,11 @@ export default {
 
 
   footer{
-    background-image: url('../assets/img/footer-bg.jpg');
-    background-position: top;
-    background-size: 100%;
+    background-image: url('../assets/img/dc-logo-bg.png'), url('../assets/img/footer-bg.jpg');
+    background-position: right bottom, left top;
+    background-size: 500px 450px, 100%;
     background-repeat: no-repeat;
+    background-origin: content-box;
     display: flex;
     height: 50vh;
 
@@ -84,13 +85,23 @@ export default {
         flex-direction: column;
         justify-content: space-evenly;
         align-items: flex-start;
-        margin-bottom: 0.8rem;
+        margin-bottom: 1.5rem;
         list-style-type: none;
 
         li{
           color: grey;
           padding: 0.3rem;
           font-size: 14px;
+
+          a{
+            text-decoration: none;
+            color: grey;
+
+            &:hover{
+              text-decoration: underline;
+              color: white;
+            }
+          }
 
           &:first-of-type{
             font-size: 18px;
