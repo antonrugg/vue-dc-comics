@@ -1,6 +1,9 @@
 <template>
+
   <main>
+    <div class="container-90w">
     --- CONTENT GOES HERE ---
+    </div>
   </main>
 
 </template>
@@ -16,7 +19,13 @@ export default {
 main{
   background-color: black;
   color: white;
-  height: 25vh;
+  padding: 5rem 0rem;
+
+  .container-90w{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
 }
 
 </style>

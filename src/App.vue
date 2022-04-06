@@ -42,4 +42,10 @@ export default {
   margin: auto 100px;
 }
 
+.container-80w{
+  margin: auto 130px;
+}
+
+
+
 </style>
