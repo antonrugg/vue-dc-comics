@@ -48,6 +48,20 @@
           </ul>
         </div> 
       </div>
+
+      
+      <div class="social-container">
+        <a class="btn" href="#nowhere">sign-up now!</a>
+        <div class="icons">
+          <span>follow us</span>
+          <a href="#nowhere"><img src="../assets/img/footer-facebook.png" alt="facebook icon"></a>
+          <a href="#nowhere"><img src="../assets/img/footer-twitter.png" alt="twitter icon"></a>
+          <a href="#nowhere"><img src="../assets/img/footer-youtube.png" alt="youtube icon"></a>
+          <a href="#nowhere"><img src="../assets/img/footer-pinterest.png" alt="pinterest icon"></a>
+          <a href="#nowhere"><img src="../assets/img/footer-periscope.png" alt="periscope icon"></a>
+        </div>
+      </div>
+
   </footer>
 </template>
 
@@ -66,19 +80,21 @@ export default {
     background-size: 500px 450px, 100%;
     background-repeat: no-repeat;
     background-origin: content-box;
-    display: flex;
     height: 50vh;
 
   .container-90w{
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
+    
+    
 
     .list-container{
       display: flex;
       flex-direction: column;
       align-items: flex-start;
       margin-right: 4rem;
+      padding-top: 1.5rem;
 
       ul{
         display: flex;
@@ -112,8 +128,65 @@ export default {
         }
       }
 
+      
+
       }
+
+      
     }
+
+.social-container{
+      height: 15vh;
+      background-color: rgb(48 48 48);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem 100px;  
+
+     a.btn{
+        color: white;
+        font-size: 16px;
+        padding: 1rem 2rem;
+        border: 2px solid rgb(12 124 236);
+        text-decoration: none;
+        text-transform: uppercase;
+
+        &:hover{
+          background-color: rgb(12 124 236);
+          transition: 0.3s;
+        }
+      }
+
+      span{
+        text-transform: uppercase;
+        font-size: 16px;
+        font-weight: 700;
+        color: rgb(12 124 236);
+        vertical-align: middle;
+        
+      }
+
+     .icons{
+       
+         
+        img{
+        margin: 0rem 1rem;
+        vertical-align: middle;
+        color: rgb(12 124 236);
+        
+          &:hover{
+            transform: scale(1.2);
+            transition: 0.3s;
+          }
+        }
+       
+        
+     } 
+     
+
+
+    }
+    
   }
 
 </style>

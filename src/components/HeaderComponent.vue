@@ -59,9 +59,9 @@ export default {
               text-decoration: none;
 
                &:hover{
-                color: blue;
-                border-bottom: 3px solid blue;
-                padding-bottom: 3.425rem;
+                color: rgb(12 124 236);
+                border-bottom: 5px solid rgb(12 124 236);
+                padding-bottom: 3.225rem;
               }
             }
 
