@@ -1,4 +1,5 @@
 <template>
+<div class="container-90w">
   <header>
       <img src="../assets/img/dc-logo.png" alt="DC logo">
       <div id="menu-container">
@@ -16,6 +17,7 @@
         </ul>
       </div>
   </header>
+  </div>
 </template>
 
 <script>
