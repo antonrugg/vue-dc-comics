@@ -61,7 +61,7 @@ export default {
                &:hover{
                 color: rgb(12 124 236);
                 border-bottom: 5px solid rgb(12 124 236);
-                padding-bottom: 3.225rem;
+                padding-bottom: 3.325rem;
               }
             }
 

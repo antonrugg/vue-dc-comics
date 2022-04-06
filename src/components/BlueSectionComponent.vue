@@ -53,12 +53,22 @@ section{
           padding: 4rem 0rem;
           flex-wrap: wrap;
           flex-grow: 1;
+          transition: transform 0.3s;
+          cursor: pointer;
+
+            &:hover{
+              transform: scale(1.3); 
+              transition: 0.3s;
+              transition-timing-function: linear;
+            }
+            
           
 
           img{
             max-height: 60px;
             max-width: 65px;
             margin-right: 0.7rem;
+
           }
 
           a{
