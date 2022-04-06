@@ -5,16 +5,7 @@
       <img src="../assets/img/dc-logo.png" alt="DC logo">
       <div id="menu-container">
         <ul>
-          <li><a href="#nowhere">characters</a></li>
-          <li><a href="#nowhere">comics</a></li>
-          <li><a href="#nowhere">movies</a></li>
-          <li><a href="#nowhere">tv</a></li>
-          <li><a href="#nowhere">games</a></li>
-          <li><a href="#nowhere">collectibles</a></li>
-          <li><a href="#nowhere">videos</a></li>
-          <li><a href="#nowhere">fans</a></li>
-          <li><a href="#nowhere">news</a></li>
-          <li><a href="#nowhere">shop</a></li>
+          <li v-for="link in menus" :key="link"><a href="#nowhere">{{link}}</a></li>
         </ul>
       </div>
       </div>
@@ -24,8 +15,13 @@
 
 <script>
 export default {
-    name: 'HeaderComponent',
-}
+  name: "HeaderComponent",
+  data() {
+    return {
+      menus: ["characters", "comics", "movies", "tv", "games", "collectibles", "video", "fans", "news", "shop"]
+    };
+  },
+};
 </script>
 
 

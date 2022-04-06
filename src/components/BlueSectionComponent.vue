@@ -3,27 +3,27 @@
     <div class="container-80w">
        <div class="option-container">
          <img src="../assets/img/buy-comics-digital-comics.png" alt="digital comics">
-         <a href="#nowehre">digital comics</a>
+         <a href="#nowhere">digital comics</a>
        </div>
 
        <div class="option-container">
          <img src="../assets/img/buy-comics-merchandise.png" alt="dc merchandise">
-         <a href="#nowehre">dc merchandise</a>
+         <a href="#nowhere">dc merchandise</a>
        </div>
 
        <div class="option-container">
-         <img src="../assets/img/buy-comics-subscriptions.png" alt="digital comics">
-         <a href="#nowehre">subscription</a>
+         <img src="../assets/img/buy-comics-subscriptions.png" alt="subscriptions">
+         <a href="#nowhere">subscription</a>
        </div>
 
        <div class="option-container">
-         <img src="../assets/img/buy-comics-shop-locator.png" alt="digital comics">
-         <a href="#nowehre">comic shop locator</a>
+         <img src="../assets/img/buy-comics-shop-locator.png" alt="shop locator">
+         <a href="#nowhere">comic shop locator</a>
        </div>
 
        <div class="option-container">
-         <img src="../assets/img/buy-dc-power-visa.svg" alt="digital comics">
-         <a href="#nowehre">dc power visa</a>
+         <img src="../assets/img/buy-dc-power-visa.svg" alt="buy dc power visa">
+         <a href="#nowhere">dc power visa</a>
        </div> 
     </div> 
   </section>
