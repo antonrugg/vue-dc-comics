@@ -1,7 +1,7 @@
 <template>
     <article>
-        <img :src="pathImg" :alt="typeProduct">
-        <p>{{title}}</p>
+       <a href="#nowhere"><img :src="pathImg" :alt="typeProduct"></a>
+       <a href="#nowhere"><p>{{title}}</p></a>
     </article> 
 </template>
 
@@ -19,8 +19,43 @@ export default {
 
 <style lang="scss" scoped>
     article{
-        height: 250px;
-        width: 200px;
-    }
+        flex-basis: calc(100% / 6);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-grow: 1;
+        row-gap: 2rem;
+        
+
+        img{
+            max-height: 100%;
+            transition: transform 0.3s;
+
+            &:hover{
+                transform: scale(1.2);
+                transition: transform 0.3s;
+            }
+        }
+
+
+        a{
+
+            text-decoration: none;
+            color: white;
+
+            &:hover{
+                text-decoration: underline;
+            }
+
+            p{
+            max-width: 200px;
+            text-transform: uppercase;
+            font-size: 14px;
+            }
+        }
+
+
+        }
+        
 
 </style>
