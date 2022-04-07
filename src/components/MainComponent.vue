@@ -42,8 +42,8 @@ main{
 
   .container-90w{
         display: flex;
-        justify-content: space-between;
-        align-items: center;
+        justify-content: flex-start;
+        align-items:flex-start;
         flex-wrap: wrap;
         row-gap: 2rem;
         padding-top: 2rem;

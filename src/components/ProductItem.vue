@@ -30,6 +30,8 @@ export default {
         img{
             max-height: 100%;
             transition: transform 0.3s;
+            
+            
 
             &:hover{
                 transform: scale(1.2);
