@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <HeaderComponent/>
-    <MainComponent/>
+    <MainComponent :products="products"/>
     <BlueSectionComponent/>
     <FooterComponent/>
   </div>
@@ -13,8 +13,12 @@ import MainComponent from './components/MainComponent.vue'
 import BlueSectionComponent from './components/BlueSectionComponent.vue'
 import FooterComponent from './components/FooterComponent.vue'
 
+//data
+import products from '@assets/data/dc-comics'
+
 export default {
   name: 'App',
+  products,
   components: {
       HeaderComponent,
       MainComponent,
