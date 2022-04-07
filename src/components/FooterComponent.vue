@@ -80,6 +80,7 @@ export default {
     background-size: 500px 450px, 100% 100%;
     background-repeat: no-repeat;
     background-origin: content-box;
+    overflow-x: hidden;
     // height: 50vh;
 
   .container-90w{
@@ -93,7 +94,8 @@ export default {
       display: flex;
       flex-direction: column;
       align-items: flex-start;
-      margin-right: 4rem;
+      // max-width: 40%;
+      margin-right: 8%;
       padding-top: 1.5rem;
 
       ul{
@@ -142,6 +144,7 @@ export default {
       align-items: center;
       justify-content: space-between;
       padding: 1rem 100px;  
+      column-gap: 1rem;
 
      a.btn{
         color: white;
@@ -167,12 +170,17 @@ export default {
       }
 
      .icons{
-       
+       display: flex;
+       justify-content: flex-start;
+       align-items: center;
+       flex-wrap: wrap;
+       row-gap: 0.5rem;
+       column-gap: 0.5rem;
          
         img{
-        margin: 0rem 1rem;
         vertical-align: middle;
         color: rgb(12 124 236);
+        padding: 0rem 0.5rem;
         
           &:hover{
             transform: scale(1.2);
