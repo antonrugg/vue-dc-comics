@@ -1,16 +1,29 @@
 <template>
 
   <main>
+    <div class="jumbotron">
+      
+    </div>
     <div class="container-90w">
-    --- CONTENT GOES HERE ---
+      <ProductItem v-for="(item, index) in products" :key="'prod-'+index" :pathImg="item.thumb" :typeProduct="item.type" :title="item.series"/>
     </div>
   </main>
 
 </template>
 
 <script>
+
+import ProductItem from '@/components/ProductItem.vue'
+
 export default {
     name: 'MainComponent',
+
+     props: {
+        products: Array
+    },
+    components: {
+         ProductItem
+    }
 }
 </script>
 
@@ -19,7 +32,12 @@ export default {
 main{
   background-color: black;
   color: white;
-  padding: 5rem 0rem;
+  padding-bottom: 5rem;
+
+  .jumbotron{
+    background-image: url('@/assets/img/jumbotron.jpg');
+    height: 53vh;
+  }
 
   .container-90w{
         display: flex;

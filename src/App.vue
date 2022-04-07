@@ -14,16 +14,23 @@ import BlueSectionComponent from './components/BlueSectionComponent.vue'
 import FooterComponent from './components/FooterComponent.vue'
 
 //data
-import products from '@assets/data/dc-comics'
+import products from '@/assets/data/dc-comics'
 
 export default {
   name: 'App',
-  products,
+  data(){
+    return{
+      products,
+
+    }   
+  },
+  
   components: {
       HeaderComponent,
       MainComponent,
       BlueSectionComponent,
       FooterComponent,
+      
   }
 }
 </script>
