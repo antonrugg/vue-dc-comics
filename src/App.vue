@@ -50,11 +50,11 @@ export default {
 }
 
 .container-90w{
-  margin: auto 100px;
+  margin: auto 10%;
 }
 
 .container-80w{
-  margin: auto 130px;
+  margin: auto 15%;
 }
 
 

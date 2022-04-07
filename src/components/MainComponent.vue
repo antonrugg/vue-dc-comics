@@ -36,6 +36,7 @@ main{
 
   .jumbotron{
     background-image: url('@/assets/img/jumbotron.jpg');
+    background-position: center top;
     height: 53vh;
   }
 

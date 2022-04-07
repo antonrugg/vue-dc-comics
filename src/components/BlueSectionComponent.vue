@@ -44,11 +44,14 @@ section{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        flex-wrap: no-wrap;
+        flex-wrap: wrap;
+        column-gap: 1rem;
         
 
         .option-container{
           display: flex;
+          justify-content: center;
+          flex-basis: calc(100% / 6);
           align-items: center;
           padding: 4rem 0rem;
           flex-wrap: wrap;
@@ -67,7 +70,7 @@ section{
           img{
             max-height: 60px;
             max-width: 65px;
-            margin-right: 0.7rem;
+           
 
           }
 

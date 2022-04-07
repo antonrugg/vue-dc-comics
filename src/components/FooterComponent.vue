@@ -77,10 +77,10 @@ export default {
   footer{
     background-image: url('../assets/img/dc-logo-bg.png'), url('../assets/img/footer-bg.jpg');
     background-position: right bottom, left top;
-    background-size: 500px 450px, 100%;
+    background-size: 500px 450px, 100% 100%;
     background-repeat: no-repeat;
     background-origin: content-box;
-    height: 50vh;
+    // height: 50vh;
 
   .container-90w{
   display: flex;
@@ -136,7 +136,7 @@ export default {
     }
 
 .social-container{
-      height: 15vh;
+      
       background-color: rgb(48 48 48);
       display: flex;
       align-items: center;

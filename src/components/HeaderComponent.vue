@@ -37,16 +37,21 @@ export default {
         justify-content: space-between;
         align-items: center;
         padding: 1rem 0rem;
+
+        
       }
 
       ul{
         display: flex;
         list-style-type: none;
+        flex-wrap: wrap;
+        row-gap: 1rem;
+        column-gap: 0.7rem;
 
         li{
           padding: 0rem 0.8rem;
-          font-weight: 600;
-          font-size: 16px;
+          font-weight: 800;
+          font-size: 14px;
           text-transform: uppercase;
           
 
